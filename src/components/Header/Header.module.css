@@ -2,7 +2,19 @@
   grid-area: header;
   background: rgb(236, 235, 235);
   padding: 13px;
+  position: relative;
 }
 .header img{
   width: 80px;
+}
+.loginBlock{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.loginBlock a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
 }

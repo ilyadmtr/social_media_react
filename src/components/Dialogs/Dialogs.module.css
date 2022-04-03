@@ -1,0 +1,56 @@
+.dialogs {
+    padding: 20px 0px 0px 0px;
+    background: white;
+}
+.dialogs h3{
+    margin-left: 20px;
+}
+.dialog_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    padding: 10px 0px 0 0;
+}
+
+.dialog_items {
+    background: #ffffff;
+    border-right: 1px solid #ecebeb;
+    border-bottom: 1px solid #ecebeb;
+}
+
+.dialog_item {
+    border-top:1px solid #ecebeb;
+}
+.dialog_item a{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #252537;
+    display: block;
+}
+.dialog_item a:hover{
+    color: tomato;
+    background: #ecebeb;
+}
+
+.messages {
+    background: #add8e6;
+    height: 70vh;
+}
+.message {
+    display: inline-block;
+    background: #ecebeb;
+    border-radius: 15px;
+    padding: 10px;
+}
+.message_wrapper{
+}
+.wrapper_dialogs{
+    display: flex;
+}
+.icon{
+    margin-right: 15px;
+}
+.icon img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

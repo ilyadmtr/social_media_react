@@ -1,0 +1,13 @@
+.friends_section{
+    color: white;
+    /*padding: 1rem;*/
+}
+.friends_section h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.friend_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

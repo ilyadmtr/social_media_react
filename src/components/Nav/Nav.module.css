@@ -1,7 +1,10 @@
+.back_wrapper{
+  background: #252537;
+}
 .nav{
   grid-area: nav;
-  background: #252537;
-  padding: 1rem 0;
+  padding: 1rem;
+  margin-bottom: 200px;
 }
 .item a{
   display: flex;
@@ -17,13 +20,13 @@
 .item a.activeLink:before{
   height: 100%;
 }
-a{
+.item a{
   position: relative;
 }
-a:hover{
+.item a:hover{
   background-color: rgba(0,0,0,0.15);
 }
-a::before{
+.item a::before{
   position: absolute;
   content: "";
   height: 0;
@@ -34,6 +37,6 @@ a::before{
 	transition: all 0.7s ease;
   background: #fff;
 }
-a:hover:before{
+.item a:hover:before{
   height: 100%;
 }
